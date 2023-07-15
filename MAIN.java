@@ -8,12 +8,12 @@ public class MAIN {
         Shape rectangle = new Rectangle(6.0, 3.0);
         Shape square = new Square(7.0);
 
-        ShapePrinter printer = new ShapePrinter();
-        printer.printShapeName(circle);
-        printer.printShapeName(quad);
-        printer.printShapeName(triangle);
-        printer.printShapeName(rectangle);
-        printer.printShapeName(square);
+
+        ShapePrinter.printShapeName(circle);
+        ShapePrinter.printShapeName(quad);
+        ShapePrinter.printShapeName(triangle);
+        ShapePrinter.printShapeName(rectangle);
+        ShapePrinter.printShapeName(square);
     }
 }
 
